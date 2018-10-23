@@ -2,7 +2,7 @@
 
 Proxy service that forwards stuff around.
 
-> Needs work
+> It's weird magic, don't touch
 
 ## Running
 
