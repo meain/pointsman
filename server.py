@@ -6,6 +6,9 @@ from sanic_cors import CORS
 app = Sanic(__name__)
 CORS(app)
 
+app.static("/", "./build")
+app.static('/', './build/index.html', name='index.html')
+
 
 async def fetch(session, method, url, port, endpoint, request):
 
